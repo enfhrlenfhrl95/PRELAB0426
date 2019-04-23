@@ -1,0 +1,14 @@
+#!/bin/bash
+TITLE="MINHO HTML"
+CURRENT_TIME=$(date +"%x %r %Z")
+TIMESTAMP="Generated $CURRENT_TIME, by $USER"
+
+echo "<HTML>
+	<HEAD>
+		<TITLE>"MINHO HTML"</TITLE>
+	</HEAD>
+	<BODY>
+		<H1>$TITLE</H1>
+		<P>$TIMESTAMP</P>
+	</BODY>
+</HTML>"	
